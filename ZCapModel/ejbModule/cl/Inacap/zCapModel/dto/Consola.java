@@ -7,7 +7,7 @@ public class Consola {
 	private String nombre;
 	private String marca;
 	private int anioLanzamiento;
-	private List<Juegos> juegos;
+	private List<Juego> juegos;
 	
 	
 	public String getNombre() {
@@ -28,10 +28,10 @@ public class Consola {
 	public void setAnioLanzamiento(int anioLanzamiento) {
 		this.anioLanzamiento = anioLanzamiento;
 	}
-	public List<Juegos> getJuegos() {
+	public List<Juego> getJuegos() {
 		return juegos;
 	}
-	public void setJuegos(List<Juegos> juegos) {
+	public void setJuegos(List<Juego> juegos) {
 		this.juegos = juegos;
 	}
 }

@@ -2,7 +2,7 @@ package cl.Inacap.zCapModel.dto;
 
 import java.time.LocalDate;
 
-public class Juegos {
+public class Juego {
 	
 	private String nombre;
 	private String descripcion;
